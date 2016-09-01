@@ -30,5 +30,13 @@ here I have change the interface.cpp and param.cpp so as to avoid the build erro
 
 ##3.Build  
      cd catkin_ws/src
-     catkin_make
+     catkin_make  
 
+##4.Add the path
+
+    export PATH=$PATH:$HOME/ardupilot/Tools/autotest
+    
+##4.Testing
+
+    cd ~/ardupilot/ArduCopter  
+    sim_vehicle.py -f arducopter_sitl_ros --console
