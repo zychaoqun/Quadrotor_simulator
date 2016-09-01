@@ -8,9 +8,11 @@ This repository describes how to build a simulation environment for quadrotor. I
     git checkout RangeFinderSITL2  
     
 ##2.Install the ros indigo and create a catkin workspace  
-       sudo apt-get install ros-indigo-octomap-msgs  
+
+     sudo apt-get install ros-indigo-octomap-msgs  
      sudo apt-get install ros-indigo-mavlink  
- then install all the required package   
+ then install all the required package  
+
      cd catkin_ws/src  
      git clone https://alexbuyval@bitbucket.org/alexbuyval/arducopter_sitl_ros.git  
      git clone https://github.com/PX4/mav_comm.git  
